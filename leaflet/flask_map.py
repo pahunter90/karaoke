@@ -25,10 +25,9 @@ def index():
 
 @app.route("/_get_places")
 def _get_places():
-    places = open("pools.txt", "r")
+    places = open(CONFIG.INPUT_FILE, "r")
     locations = []
     for line in iter(places):
-        print("Adding the location: ", line)
         locations.append(line)
     result = {"locations": locations}
     return flask.jsonify(result=result)
