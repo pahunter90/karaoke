@@ -13,6 +13,7 @@ which starts at Autzen Stadium. The address of the marker will update as it is m
 Google Maps API
 Lots of code used from previous CIS322 projects (credit Michal Young)
 
-File name is pool.txt, but can be changed in flask_map.py
+File name can be changed in credentials-skel.ini which should be
+copied into the leaflet directory as simply credentials.ini
 
 Happy swimming!
