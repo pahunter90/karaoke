@@ -20,7 +20,7 @@ echo "Activating ${activate}"
 source ${activate}
 echo "Activated"
 
-pushd map
+pushd leaflet 
 python3 flask_map.py -P ${PORTNUM} &
 pid=$! 
 popd
